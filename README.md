@@ -1,2 +1,2 @@
 # curriculumWeb
-Curriculum creado en una pagina Web
+Curriculum creado en una pagina Web: Bienvenidos a mi página web, donde podrán conocer mi perfil como programador y descubrir algunas de mis habilidades en el mundo de la programación web. En esta página podrán encontrar una descripción detallada de mi experiencia y detrezas en el campo de la programación. Espero que disfruten explorando mi trabajo y que encuentren en él la muestra de mi pasión por la programación y la tecnología.
