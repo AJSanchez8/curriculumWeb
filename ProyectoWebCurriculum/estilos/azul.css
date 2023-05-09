@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url("../img/fondo.jpg");
+  background-attachment: fixed;
+}
+#cambiarTema{
+  position: fixed;
+  top:40%;
+  background: rgba(255, 255, 102, 0.7);
+  width: 50px;
+  height: 100px;
+}
+#cambiarAzul, #cambiarVerde, #cambiarRojo{
+width: 30px;
+height: 30px;
+border: 1px solid white;
+align-items: center;
+display: block;
+margin: 0px auto;
+margin-top: 1px;
+cursor: pointer;
+}
+#cambiarAzul{
+  background-color: #004466;
+}
+#cambiarVerde{
+  background-color: #29eb03;
+}
+#cambiarRojo{
+  background-color: #b30101;
+}
+
+
+#global {
+  width: 85%;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 2px grey;
+}
+#fotoWeb {
+  width: 120px;
+  border-radius: 20px;
+}
+h1 {
+  float: right;
+  margin-right: 25%;
+  font-size: 30px;
+  font-family: "Verdana", "Arial";
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 20px;
+}
+footer {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+background-color: aquamarine;
+width: 85%;
+margin: 0px auto;
+padding: 20px;
+}
+nav {
+  background-color: #0077b6;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 3px;
+}
+
+#menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #134472;
+  color: #f8f8f8;
+}
+#contenido {
+  display: flex;
+  flex-direction: row;
+}
+
+.post {
+  padding: 40px;
+  margin-top: 5px;
+  width: 90%;
+  
+}
+.post p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 30px;
+}
+#fecha {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#sidebar {
+  margin-top: 5px;
+  flex-basis: 30%;
+
+}
+.galeria img{
+    width: 100%;
+    height: 600px;
+}
+#slider h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.bx-wrapper, .bx-viewport{
+    height: 450px !important;
+}
+.imagenes {
+  width: 100px;
+}
+/*Para el id experiencia*/
+#experiencia {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #b5d6d5;
+  border-radius: 20px;
+
+}
+
+#experiencia h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#experiencia ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#experiencia li {
+  margin-bottom: 10px;
+}
+
+#experiencia a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#experiencia a:hover {
+  text-decoration: underline;
+}
+
+#experiencia ul ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#experiencia strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+/*Para el id estudios*/ 
+#estudios {
+    background-color: #b5d6d5;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  #estudios h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #estudios ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #estudios li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #estudios li strong {
+    font-weight: bold;
+  }
+  /*Estilos para el aside*/
+  
+#login h4 span {
+    color: #006699;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  #login form {
+    margin-top: 20px;
+    
+  }
+  
+  #login label {
+    display: block;
+    margin-bottom: 10px;
+    color: #030303;
+  }
+  
+  #login input[type="text"],
+  #login input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  #login input[type="submit"] {
+    background-color: #006699;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto
+  }
+  
+  #login input[type="submit"]:hover {
+    background-color: #004466;
+    
+  }
+
+  /*Contacto o footer*/
+  #contacto p {
+    text-align: center;
+    align-self: center; /* Centra verticalmente solo el elemento 'p' dentro del grid */
+  }
